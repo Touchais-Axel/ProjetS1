@@ -1,0 +1,9 @@
+/* On importe les polices pour que tous les utilisateurs y aient accès */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+/* On importe la feuille de variables (polices, couleurs...) */
+@import url('variables.css');
+
+/* On importe les feuilles des éléments de base */
+@import url('main.css');
+@import url('fonts.css');

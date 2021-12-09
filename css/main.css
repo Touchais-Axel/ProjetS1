@@ -1,0 +1,10 @@
+/* On applique la couleur au background de la page d'accueil */
+body
+{
+    background: linear-gradient(#006AF5,#0A131F);
+}
+
+.home_article
+{
+    background-color: var(--impure_white);
+}

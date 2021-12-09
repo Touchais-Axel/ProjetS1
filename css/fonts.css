@@ -1,0 +1,100 @@
+/* On applique la couleur aux contenus textuels de la page d'accueil */
+
+#appname, #appdescription, #footer_name, .footer_school, #contactsentence, #legalsentence, .pagetitle
+{
+    color: var(--impure_white);
+}
+
+.articlename, .articledescription, .home_nextarticle .menu_articlesbuttons, .langages
+{
+    color: var(--impure_black);
+}
+
+#mailto
+{
+    color: var(--mailto_yellow);
+    font-size: var(--footer_mailto);
+}
+
+/* On applique les tailles de polices aux contenus textuels de la page d'accueil */
+
+.pagetitle
+{
+    font-size: var(--page_title);
+}
+
+.menu_articlesbuttons
+{
+    font-size: var(--menu_articles_buttons);
+}
+
+.langages
+{
+    font-size: var(--languages);
+}
+
+#appname
+{
+    font-size: var(--app_name);
+}
+
+#appdescription
+{
+    font-size: var(--home_description);
+}
+
+.articlename
+{
+    font-size: var(--home_articles_names);
+}
+
+.articledescription
+{
+    font-size: var(--home_articles_descriptions);
+}
+
+.home_nextarticle
+{
+    font-size: var(--home_next_article_button);
+}
+
+#footer_name
+{
+    font-size: var(--footer_name)
+}
+
+#contactsentence
+{
+    font-size: var(--footer_contact_sentence);
+}
+
+.footer_school
+{
+    font-size: var(--footer_school);
+}
+
+#legalsentence
+{
+    font-size: var(--footer_legal_sentence);
+}
+
+/* On applique les familles de polices aux contenus textuels de la page d'accueil */
+
+#mailto
+{
+    color: var(--mailto_yellow);
+    font-size: var(--footer_mailto);
+}
+
+/* On applique les tailles de polices aux contenus textuels de la page d'accueil */
+
+.pagetitle, .menu_articlesbuttons, .langages, #appname, #appdescription, .articlename, .home_nextarticle 
+{
+    font-family: var(--font_titles)
+}
+
+
+.articledescription, #footer_name, #contactsentence, .footer_school, #legalsentence
+{
+    font-family: var(--font_content);
+}

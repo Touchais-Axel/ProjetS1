@@ -1,6 +1,6 @@
 /* On applique la couleur aux contenus textuels de la page d'accueil */
 
-#appname, #appdescription, #footer_name, .footer_school, #contactsentence, #legalsentence, .pagetitle
+#appname, #appdescription1, #appdescription2, #footer_name, .footer_school, #contactsentence, #legalsentence, .pagetitle
 {
     color: var(--impure_white);
 }
@@ -38,7 +38,7 @@
     font-size: var(--app_name);
 }
 
-#appdescription
+#appdescription1, #appdescription2
 {
     font-size: var(--home_description);
 }
@@ -88,7 +88,7 @@
 
 /* On applique les tailles de polices aux contenus textuels de la page d'accueil */
 
-.pagetitle, .menu_articlesbuttons, .langages, #appname, #appdescription, .articlename, .home_nextarticle 
+.pagetitle, .menu_articlesbuttons, .langages, #appname, #appdescription1, #appdescription2, .articlename, .home_nextarticle 
 {
     font-family: var(--font_titles)
 }

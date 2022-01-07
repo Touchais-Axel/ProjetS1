@@ -8,3 +8,8 @@ body
 {
     background-color: var(--impure_white);
 }
+
+.footer
+{
+    background-image: url("../icons/footer_background.svg");
+}

@@ -1,0 +1,101 @@
+body
+{
+    color: var(--impure_white);
+    font-family: var(--font_content);
+    font-size: var(--home_description);
+    line-height: 1;
+    background: linear-gradient(#006AF5,#0A131F);
+    font-weight: normal;
+}
+
+a
+{
+  text-decoration: none;
+  color: var(--impure_black);
+}
+
+h1,
+h2 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: var(--app_name);
+}
+
+h2 {
+  font-size: var(--page_title);
+}
+
+h3 {
+  font-size: var(title);
+}
+
+.articlename, .articledescription, .home_nextarticle .menu_articlesbuttons, .langages
+{
+    color: var(--impure_black);
+}
+
+.articlename
+{
+  font-weight: 400;
+}
+
+.articledescription
+{
+  font-size: var(--home_articles_descriptions);
+}
+
+.home_nextarticle
+{
+  font-size: var(--home_next_article);
+  font-weight: bold;
+}
+
+#footer_name
+{
+  font-size: var(--footer_name);
+}
+
+#contactsentence
+{
+  font-size: var(--footer_contact_sentence);
+  font-weight: 300;
+}
+
+.footer_school
+{
+  font-size: var(--footer_school);
+  font-weight: 300;
+}
+
+#mailto
+{
+    color: var(--mailto_yellow);
+    font-size: var(--footer_mailto);
+    font-weight: 300;
+}
+
+#legalsentence
+{
+  font-size: var(--footer_legal_sentence);
+  font-weight: lighter;
+}
+
+.menu_articlesbuttons, .langages, #appdescription1, .articlename, .home_nextarticle 
+{
+    font-family: var(--font_titles)
+}
+
+button {
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+#appdescription1 {
+    font-weight: 300;
+}

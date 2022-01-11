@@ -21,16 +21,16 @@
 --article_content: 1rem;
 --picture_caption: 0.88rem;
 --next_article_teasing: 1rem;
---next_article_button: 1.25rem;
+--next_article: 1.25rem;
 --other_content: 1rem;
 --form_categories: 1.25rem;
 --languages: 1.25rem;
 --home_articles_descriptions: 1.25rem;
---menu_articles_buttons: 1.44rem;
+--menu_articles: 1.44rem;
 --footer_name: 1.25rem;
 --footer_school: 1.25rem;
 --footer_contact_sentence: 1.06rem;
 --footer_mailto: 0.88rem;
 --footer_legal_sentence: 0.88rem;
---home_next_article_button: 1.12rem;
+--home_next_article: 1.12rem;
 }

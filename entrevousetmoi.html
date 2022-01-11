@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Entre vous et moi - La Scientifique Oubliée</title>
 
-    <link rel="stylesheet" href="css/styl.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="./icons/applogo_main.svg"/>
 </head>
 
@@ -14,29 +14,38 @@
 
     <header>
 
-        <div class="applogo2">
-        <a href="/">
-            <img src="icons/applogo_2.svg" alt="Logo page d'acceuil">
-        </a>
-        </div>
-    
-        <div class="menu_logo">
+        <div class="burger">
         <button>
             <img src="icons/menu.svg" alt="Menu hamburger">
         </button>
         </div>
     
         <!-- Contenu de mon menu hamburger -->
-        <nav>
+        <nav class=menu>
+    
+    <div class="header_menu">
+        <div class="applogo2">
+        <a href="/">
+        <img src="icons/applogo_2.svg" alt="Logo page d'acceuil">
+        </a>
+        </div>    
+    
+        <div class="cross">
+            <button>
+                <img src="icons/cross.svg" alt="Fermer le menu">
+            </button>
+        </div>
+    </div>
     
         <h2 class="pagetitle">MENU</h2>
     
-        <ul>
-        <li><a href="article1.html" class="menu_articlesbuttons">EFFET MATILDA</a></li>
-        <li><a href="article2.html" class="menu_articlesbuttons">ROSSITER, REFLET DE GAGE</a></li>
-        <li><a href="article3.html" class="menu_articlesbuttons">LES FIGURES DE L'OMBRE</a></li>
-        <li><a href="entrevousetmoi.html" class="menu_articlesbuttons">ENTRE VOUS ET MOI</a></li>
-        <li><a href="cultureethistoire.html" class="menu_articlesbuttons">CULTURE & HISTOIRE</a></li>
+        <ul class="nav-links">
+    
+                <li><a href="article1.html" class="menu_articlesbuttons">EFFET MATILDA</a></li>
+                <li><a href="article2.html" class="menu_articlesbuttons">ROSSITER, REFLET DE GAGE</a></li>
+                <li><a href="article3.html" class="menu_articlesbuttons">LES FIGURES DE L'OMBRE</a></li>
+                <li><a href="entrevousetmoi.html" class="menu_articlesbuttons">ENTRE VOUS ET MOI</a></li>
+                <li><a href="cultureethistoire.html" class="menu_articlesbuttons">CULTURE & HISTOIRE</a></li>
         </ul>
     
         <!-- Langues du site -->
@@ -48,8 +57,8 @@
         </nav>
     
     </header>
-
-
+    
+    <script src="./js/app.js"></script>
 
     <main>
 
@@ -169,16 +178,25 @@
 
 <footer class="footer">
 
-<h3 id="footer_name">Axel Touchais</h3>
-<p id="contactsentence">Reste en contact !</p>
-<h3 class="footer_school">MMI 1</h3>
-<h3 class="footer_school">Groupe C2</h3>
-<a href="mailto:axel.touchais@edu.univ-fcomte.fr" id="mailto">axel.touchais@edu.univ-fcomte.fr</a>
+    <div class="footerglobal">
     
-<p id="legalsentence">Projet réalisé dans le cadre d’un exercice pédagogique 
-au département MMI de Montbéliard.</p>
-
-</footer>
+        <div class=footerp1>
+            <h3 id="footer_name">Axel Touchais</h3>
+            <h3 class="footer_school">MMI 1</h3>
+            <h3 class="footer_school">Groupe C2</h3>
+        </div>
+    
+        <div class="footerp2">
+            <p id="contactsentence">Reste en contact !</p>
+            <a href="mailto:axel.touchais@edu.univ-fcomte.fr" id="mailto">axel.touchais@edu.univ-fcomte.fr</a>
+        </div>
+    
+    </div>
+    
+    <p id="legalsentence">Projet réalisé dans le cadre d’un exercice pédagogique 
+        au département MMI de Montbéliard.</p>
+        
+        </footer>
 
 </body>
 </html>

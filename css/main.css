@@ -3,7 +3,6 @@ html, body{
     overflow-x: hidden;
 }
 
-
 /* On applique la couleur au background de la page d'accueil */
 body
 {
@@ -13,19 +12,37 @@ body
 
 }
 
+ul
+{
+    list-style-type: none;
+}
+
+img:not(.article_banner>img)
+{
+    width: 100%;
+    width: ;
+}
+
+figcaption
+{
+    text-align: center;
+}
+
 .footer
 {
     background-image: url("../icons/footer_background.svg");
     margin-top: 100px;
 }
 
-nav{
-    z-index: 9;
-    display: flex;
-    justify-content: center;
-    align-items: left;
-    min-height: 8vh;
-    margin-top: 0vh;
+h2, h3
+{
+    text-align: center;
+}
+
+p
+{
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 @media screen and (max-width:1024px){
@@ -39,22 +56,45 @@ nav{
         right: 0px;
         top: 0vh;
         background: linear-gradient(#006AF5, #053F8A);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         width: 100vw;
         height: 100vh;
         transform: translateX(100%);
     }
 
-    .nav-links li a:hover{
-        color: white;
-        font-weight: bold;
-        font-size: 1.3rem;
-    }
+.header_menu
+{
+    display: flex;
+    justify-content: space-between;
+}
 
-    .burger{
+.menu li
+{
+    padding-top: 20px;
+}
+
+.pagetitle
+{
+    margin-top: 70px;
+    text-align: center;
+}
+
+.nav-links
+{
+    width: 325px;
+    height: max-content;
+    text-align: center;
+}
+
+.nav-links a
+{
+    margin-bottom: 20px;
+    border: 1px solid var(--impure_black);
+    border-radius: 5px;
+    background-color: var(--drop_water_blue);
+}
+
+.burger
+    {
         display: block;
     }
 }
@@ -78,6 +118,12 @@ margin-left: 305px;
     margin-bottom: 50px;
 }
 
+.cross
+
+.applogoname>a
+{
+    border: black;
+}
 
 h1
 {
@@ -172,11 +218,6 @@ h1
 {
     text-align: center;
     margin-left: 20px;
-}
-
-#mailto
-{
-    text-align: right;
 }
 
 .footer>p

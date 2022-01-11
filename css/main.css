@@ -228,3 +228,20 @@ h1
 {
     text-align: center;
 }
+
+.bar_header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_menu_click
+{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+form
+{
+    margin-left: 100px;
+}

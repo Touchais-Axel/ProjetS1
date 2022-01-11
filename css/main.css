@@ -69,12 +69,15 @@ p
 
 .menu li
 {
-    padding-top: 20px;
+    margin-right: 30px;
+    justify-content: center;
+    padding-bottom: 50px;
 }
 
 .pagetitle
 {
     margin-top: 70px;
+    margin-bottom: 50px;
     text-align: center;
 }
 
@@ -88,6 +91,7 @@ p
 .nav-links a
 {
     margin-bottom: 20px;
+    padding: 15px 10px;
     border: 1px solid var(--impure_black);
     border-radius: 5px;
     background-color: var(--drop_water_blue);

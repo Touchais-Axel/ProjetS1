@@ -17,10 +17,9 @@ ul
     list-style-type: none;
 }
 
-img:not(.article_banner>img)
+img:not(.article_banner>img, .carousel, .back_home)
 {
     width: 100%;
-    width: ;
 }
 
 figcaption
@@ -74,7 +73,7 @@ p
     padding-bottom: 50px;
 }
 
-.pagetitle
+.menu_title
 {
     margin-top: 70px;
     margin-bottom: 50px;
@@ -229,12 +228,6 @@ h1
     text-align: center;
 }
 
-.bar_header
-{
-    display: flex;
-    justify-content: space-between;
-}
-
 .logo_menu_click
 {
     margin-top: 10px;
@@ -244,4 +237,76 @@ h1
 form
 {
     margin-left: 100px;
+}
+
+p:not(#legalsentence, .articledescription, .p_title)
+{
+    margin-top: 50px;
+}
+
+h3:not(#footer_name, .footer_school)
+{
+    margin-top: 50px;
+}
+
+.page_title
+{
+    margin-top: 100px;
+}
+
+.illustration
+{
+    margin-top: 50px;
+}
+
+.p_title
+{
+    margin-top: 25px;
+}
+
+figcaption
+{
+    font-size: var(--picture_caption);
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.title
+{
+    font-size: var(--title);
+    font-weight: bold;
+}
+
+.teasing
+{
+    font-size: var(--next_article_teasing);
+    font-weight: 300;
+}
+
+.separation
+{
+ margin-top: 50px;   
+}
+
+.galerie
+{
+    width: 1699px;
+}
+
+.frise
+{
+    width: 4190px;
+}
+
+.carousel
+{
+    width: 1000px;
+    overflow-x: scroll;
+}
+
+.back_home
+{
+    width: 200px;
+    margin-top: 80px;
+    margin-left: 80px;
 }
